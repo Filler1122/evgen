@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Futura New';
+  src: local('Futura New Book Obl'), local('Futura-New-Book-Obl'),
+      url('FuturaNewBook-Obl.woff2') format('woff2'),
+      url('FuturaNewBook-Obl.woff') format('woff'),
+      url('FuturaNewBook-Obl.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+html {
+  font-family: 'Futura New';
+  line-height: 1.5;
+}
+*, ::after, ::before{
+  font-family: 'Futura New';
+  line-height: 1.5;
+}
